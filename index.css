@@ -1,0 +1,97 @@
+/* CSS Reset (Optional, for consistent styling) */
+body, h1, p, button {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #bb4444;
+  }
+  .btn {
+    color: #605555;
+    /* background: none; */
+    margin:7px ;
+    border: none;
+    font-family: inherit;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-weight: 200;
+  }
+  .btn :hover{
+    background-color: #1c23e2;
+
+  }
+  .btn--new:hover{
+    background-color: #e21c33;
+
+  }
+  .quiz-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0cece;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #292727;
+  }
+  
+  .question {
+    margin-bottom: 20px;
+    color: #725959;
+  }
+  
+  .options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  
+  .option {
+    padding: 10px;
+    border: 2px solid #ccc;
+    background-color: #f9f9f9;
+    color: #333;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .option:hover {
+    background-color: #9e5959;
+  }
+  
+  .result {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #333;
+  }
+  .hidden {
+    display: none;
+  }
+  .container {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  button.start {
+    padding: 15px 30px;
+    background-color: pink;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  button.start:hover {
+    background-color: #ff80b3; /* Darker pink on hover */
+  }  
